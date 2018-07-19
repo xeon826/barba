@@ -1,0 +1,28 @@
+.fader {
+  width:100vmax;
+  height:100vmin;
+  pointer-events: none;
+  background-image: url(img/smiley.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  z-index:-1;
+  top:0;
+  left:0;
+  position:fixed;
+}
+/* body {
+  background-image: url(img/smiley.png);
+}
+*/
+#barba-wrapper {
+  background-color:white;
+  position:relative;
+  z-index:10;
+}
+#barba-wrapper, #barba-wrapper *{
+  z-index:5;
+}
+.barba-container *{
+  z-index:5;
+  position:relative;
+}
